@@ -16,7 +16,7 @@ export default function NavBar() {
                 <Navbar.Toggle aria-controls="main-navber"/>
                 <Navbar.Collapse>
                     <Nav className="me-auto">
-                        <Nav.Link href="/hello" as={Link} active={pathname === "/hello"}>Hello</Nav.Link>
+                        <Nav.Link href="/static" as={Link} active={pathname === "/static"}>Static</Nav.Link>
                         <Nav.Link href="/about" as={Link} active={pathname === "/about"}>About</Nav.Link>
                         <Nav.Link href="/contact" as={Link}>Contact</Nav.Link>
                     </Nav>
